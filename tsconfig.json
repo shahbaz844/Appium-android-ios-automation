@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "Node",
+		"types": ["node", "webdriverio/async", "@wdio/mocha-framework", "expect-webdriverio", "@wdio/appium-service"],
+		"target": "ES2019",
+		"strictNullChecks": true
+	},
+	"include": ["./**/*.ts", ".eslintrc.json", "./types/*.ts"]
+}
